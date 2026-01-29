@@ -1,0 +1,122 @@
+*{
+ box-sizing:border-box;
+ font-family:Arial, Helvetica, sans-serif
+}
+
+body{
+ margin:0;
+ background:#f4f4f4;
+ color:#111
+}
+
+/* TOP BAR */
+.top-bar{
+ background:#000;
+ color:#fff;
+ display:flex;
+ justify-content:space-between;
+ padding:8px 40px;
+ font-size:14px
+}
+
+.top-bar i{
+ color:#f2c200;
+ margin-right:6px
+}
+
+/* NAVBAR */
+.navbar{
+ background:#fff;
+ display:flex;
+ align-items:center;
+ justify-content:space-between;
+ padding:15px 40px;
+}
+
+.logo{
+ height:70px
+}
+
+nav a{
+ margin:0 14px;
+ text-decoration:none;
+ color:#333;
+ font-weight:600;
+ font-size:15px
+}
+
+nav .active{
+ color:#f2c200;
+ border-bottom:3px solid #f2c200;
+ padding-bottom:6px
+}
+
+.social i{
+ margin-left:12px;
+ background:#f2c200;
+ color:#000;
+ padding:8px;
+ border-radius:4px;
+ font-size:14px
+}
+
+/* IMAGEN */
+.hero-img img{
+ width:100%;
+ display:block
+}
+
+/* CERTIFICACIONES */
+.certificaciones{
+ text-align:center;
+ padding:70px 20px
+}
+
+.certificaciones h2{
+ font-size:36px;
+ color:#fff;
+ background:#111;
+ display:inline-block;
+ padding:12px 30px;
+ border-radius:4px
+}
+
+.certificaciones h3{
+ margin-top:20px;
+ font-size:22px
+}
+
+.btn{
+ display:inline-block;
+ margin:25px 0 40px;
+ background:#f2c200;
+ color:#000;
+ padding:14px 30px;
+ font-weight:700;
+ border-radius:30px;
+ text-decoration:none
+}
+
+.certificado-img{
+ max-width:650px;
+ width:95%;
+ box-shadow:0 15px 30px rgba(0,0,0,.3)
+}
+
+/* CONTENEDOR IMAGEN */
+.cert-img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+/* IMAGEN CERTIFICADO */
+.certificado-img {
+    max-width: 650px;
+    width: 95%;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 0 15px 30px rgba(0,0,0,.3);
+}
+
